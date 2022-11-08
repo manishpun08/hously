@@ -1,0 +1,83 @@
+
+.nav-link:hover{
+    color: #16A349;
+}
+.nav-link.active{
+    color: #16A349 !important; 
+}
+.nav-link.down{
+    background-color: #16A349 !important; 
+   
+}
+.nav-link{
+    color: #fff;
+}
+
+.back{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://shreethemes.in/hously/assets/images/bg.jpg);
+    height: 100vh;
+    position: relative;
+}
+
+.btn-lg.Download{
+    border: 1px solid #16A349;
+}
+.btn-lg.Download:hover{
+    background-color: #16A349 !important;
+}
+.main{
+    position: absolute;
+top: 50%;
+right: 50%;
+transform: translate(50%);
+text-align: center;
+
+}
+
+.w{
+    border-radius: 50%;
+    height: 100px;
+    width: 90px;
+background-color: #fff;
+box-shadow: 1px 1px  4px gray ;
+text-align: center;
+
+}
+.posi{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.py{
+    margin-top: 80px;
+    padding: 30px;
+}
+.s img{
+    transition: 0.5s ease-in-out;
+
+}
+.s img:hover{
+    transform: translate(0px,-10px);
+    
+}
+/* .bord{
+    border: 1px solid black;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.5);
+} */
+.hh{
+    justify-content: space-evenly;
+    display: flex;
+    display: inline-block;
+    
+    flex-wrap: wrap;
+}
+.cc{
+    flex-basis: 30%;
+}
+.cc img{
+    transition: 0.5s ease-in;
+}
+.cc:hover{
+transform: translate(0px,-10px);
+}
